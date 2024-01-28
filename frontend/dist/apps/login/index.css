@@ -1,10 +1,13 @@
 /* Your app style. */
 
-#loginblock{
-
+form{
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
 }
 
 .btn{
     background-color:darkgoldenrod;
     border-color: darkgoldenrod;
+    margin: auto;
 }
