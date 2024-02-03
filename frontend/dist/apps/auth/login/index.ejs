@@ -1,21 +1,33 @@
-<%- include("../../../shared/partials/header") %>
-
+<%- include("../../../../shared/partials/header") %>
 <div id="loginblock">
 
 <form>
-    <div class="mb-3">
+    <div class="mx-auto mb-3" style="width: 600px;">
       <label for="exampleInputEmail1" class="form-label">Email-adresse</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       <div id="emailHelp" class="form-text">Din email-adresse blir ikke delt med noen.</div>
     </div>
-    <div class="mb-3">
+
+    <div class="mx-auto mb-3" style="width: 600px;">
       <label for="exampleInputPassword1" class="form-label">Passord</label>
       <input type="password" class="form-control" id="exampleInputPassword1">
     </div>
-    <div class="mb-3 form-check">
+
+    <div class="mx-auto mb-3" style="width: 600px;">
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Kryss av</label>
     </div>
-    <button type="submit" class="btn btn-primary">Logg inn</button>
+
+    <div class="button">
+      <button type="submit" class="btn btn-primary">Logg inn</button>
+    </div>
+
+      <div class="col-12 mx-auto" style="width: 600px;">
+        <p class="small mb-0">Ikke bruker? Registrer deg <a href="/auth/registration">her</a></p>
+      </div>
+   
+
   </form>
 </div>
+
+<%- include("../../../../shared/partials/footer") %>
