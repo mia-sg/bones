@@ -1,1 +1,7 @@
-/** Your app style. */
+/* Container for main and thumbnail carousels */
+
+#carouselExampleIndicators {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
