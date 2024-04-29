@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apico": "^1.1.6",
+    "apico": "^2.0.12",
     "fs-extra": "^11.2.0",
-    "mysql2": "^3.9.1"
+    "mysql2": "^3.9.7"
   }
 }
