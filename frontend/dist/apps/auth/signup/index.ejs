@@ -6,13 +6,6 @@
         <div class="row justify-content-center">
           <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
-            <div class="d-flex justify-content-center py-4">
-              <a href="/" class="logo d-flex align-items-center w-auto">
-                <img src="assets/img/logo.png" alt="">
-                <span class="d-none d-lg-block">APICO</span>
-              </a>
-            </div><!-- End Logo -->
-
             <div class="card mb-3">
 
               <div class="card-body">
@@ -24,41 +17,34 @@
 
                 <div id="signup-form" class="row g-3 needs-validation" novalidate>
                   <div class="col-12">
-                    <label for="yourName" class="form-label">Navn</label>
-                    <input type="text" name="name" class="form-control" id="yourName" required>
+                    <label for="first_name" class="form-label">Fornavn</label>
+                    <input type="text" name="name" class="form-control" id="first_name" required>
                     <div class="invalid-feedback">Vennligst skriv inn ditt navn</div>
                   </div>
 
                   <div class="col-12">
-                    <label for="yourEmail" class="form-label">Din email</label>
-                    <input type="email" name="email" class="form-control" id="yourEmail" required>
+                    <label for="email" class="form-label">Din email</label>
+                    <input type="email" name="email" class="form-control" id="email" required>
                     <div class="invalid-feedback">Vennligst benytt en gyldig email-adresse</div>
                   </div>
 
                   <div class="col-12">
-                    <label for="yourUsername" class="form-label">Brukernavn</label>
+                    <label for="username" class="form-label">Brukernavn</label>
                     <div class="input-group has-validation">
                       <span class="input-group-text" id="inputGroupPrepend">@</span>
-                      <input type="text" name="username" class="form-control" id="yourUsername" required>
+                      <input type="text" name="username" class="form-control" id="username" required>
                       <div class="invalid-feedback">Vennligst lag et brukernavn</div>
                     </div>
                   </div>
 
                   <div class="col-12">
-                    <label for="yourPassword" class="form-label">Passord</label>
-                    <input type="password" name="password" class="form-control" id="yourPassword" required>
+                    <label for="password" class="form-label">Passord</label>
+                    <input type="password" name="password" class="form-control" id="password" required>
                     <div class="invalid-feedback">Vennligst skriv inn passord</div>
                   </div>
 
                   <div class="col-12">
-                    <div class="form-check">
-                      <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
-                      <label class="form-check-label" for="acceptTerms">Jeg godtar brukervilkår</div>
-
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button class="btn btn-primary w-100" id="signup-btn">Lag brukerkonto</button>
+                    <button type="button" class="btn btn-primary w-100" id="signup-btn">Lag brukerkonto</button>
                   </div>
                   <div class="col-12">
                     <p class="small mb-0">Har du allerede en bruker? <a href="/auth/login">Logg inn</a></p>

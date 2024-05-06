@@ -1,12 +1,12 @@
-const router = require('express').Router();
-const {app} = require('apico/server.js');
+// const router = require('express').Router();
+// const {app} = require('apico/server.js');
 
-const mysql = require('mysql2');
+// const mysql = require('mysql2');
 
-// add routes
+// // add routes
 
-router.get('/', async(req, res)=>{
-    res.json({'Message': 'login works'});
-});
+// router.get('/', async(req, res)=>{
+//     res.json({'Message': 'login works'});
+// });
 
-app.use('/auth/login', router);
+// app.use('/auth/login', router);
