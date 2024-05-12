@@ -1,4 +1,4 @@
 {
-    "layout":"shared/layouts/auth",
+    "layout":"shared/layouts/default",
     "access":"public"
 }

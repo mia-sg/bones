@@ -1,1 +1,11 @@
 /** Your app style. */
+
+.content {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+div {
+    text-align: center;
+    margin: 10px;
+}

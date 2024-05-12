@@ -5,7 +5,7 @@ const path = require('path');
 function getAppCss( app_name )
 {
     let r = ``;
-    let view_css = `frontedn/dist/apps/${ app_name }/index.css`;
+    let view_css = `frontend/dist/apps/${ app_name }/index.css`;
 
     if( fs.existsSync( view_css ) ){
         r = `<link rel="stylesheet" href="/static/apps/${ app_name }/index.css">`;
@@ -52,5 +52,7 @@ function layout( p_layout)
 }
 
 module.exports =  {
-    getAppCss, getAppJs, initAppDs
+    getAppCss,
+    getAppJs,
+    initAppDs
 }
